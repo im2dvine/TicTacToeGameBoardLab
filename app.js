@@ -201,54 +201,62 @@ function winCheck() {
     if (cells[0].textContent === player) {
         if (cells[1].textContent === player && cells[2].textContent === player) {
             gameOver = true
-            console.log(player + " wins")
+            console.log(player + " wins");
+            endGameText.innerHTML = `${player} wins! <br> <button onClick={location.reload()}>Restart</button>`;
         }
     }
     if (cells[3].textContent === player) {
         if (cells[4].textContent === player && cells[5].textContent === player) {
             gameOver = true
-            console.log(player + " wins")
+            console.log(player + " wins");
+            endGameText.innerHTML = `${player} wins! <br> <button onClick={location.reload()}>Restart</button>`;
         }
     }
     if (cells[6].textContent === player) {
         if (cells[7].textContent === player && cells[8].textContent === player) {
             gameOver = true
-            console.log(player + " wins")
+            console.log(player + " wins");
+            endGameText.innerHTML = `${player} wins! <br> <button onClick={location.reload()}>Restart</button>`;
         }
     }
     if (cells[0].textContent === player) {
         if (cells[4].textContent === player && cells[8].textContent === player) {
             gameOver = true
-            console.log(player + " wins")
+            console.log(player + " wins");
+            endGameText.innerHTML = `${player} wins! <br> <button onClick={location.reload()}>Restart</button>`;
         }
     }
     if (cells[2].textContent === player) {
         if (cells[4].textContent === player && cells[6].textContent === player) {
             gameOver = true
-            console.log(player + " wins")
+            console.log(player + " wins");
+            endGameText.innerHTML = `${player} wins! <br> <button onClick={location.reload()}>Restart</button>`;
         }
     }
     if (cells[0].textContent === player) {
         if (cells[3].textContent === player && cells[6].textContent === player) {
             gameOver = true
-            console.log(player + " wins")
+            console.log(player + " wins");
+            endGameText.innerHTML = `${player} wins! <br> <button onClick={location.reload()}>Restart</button>`;
         }
     }
     if (cells[1].textContent === player) {
         if (cells[4].textContent === player && cells[7].textContent === player) {
             gameOver = true
-            console.log(player + " wins")
+            console.log(player + " wins");
+            endGameText.innerHTML = `${player} wins! <br> <button onClick={location.reload()}>Restart</button>`;
         }
     }
     if (cells[2].textContent === player) {
         if (cells[5].textContent === player && cells[8].textContent === player) {
             gameOver = true
-            console.log(player + " wins")
+            console.log(player + " wins");
+            endGameText.innerHTML = `${player} wins! <br> <button onClick={location.reload()}>Restart</button>`;
         }
     }
 }
 
 
 function tieGame() {
-    endGameText.innerHTML = "It's a tie! <br> <button onClick={location.reload()}>Restart</button>";
+    endGameText.innerHTML = `It's a tie! <br> <button onClick={location.reload()}>Restart</button>`;
 }
