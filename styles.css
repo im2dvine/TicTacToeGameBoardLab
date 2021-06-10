@@ -58,3 +58,14 @@ body {
 #board > h1 {
     padding-bottom: 3em;
 }
+
+button {
+    align-content: center;
+    border: 5px outset rgba(162,255,46,0.6);
+    border-radius: 16px;
+    background-color: yellowgreen;
+    color: purple;
+    font-family: 'Press Start 2P';
+    padding: 6px;
+    margin: 4px;
+}
